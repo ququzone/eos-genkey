@@ -1,4 +1,5 @@
 #!/bin/sh
 
+npm install
 npm run build
-docker build -t eos-genkey .
+docker build -t eos-keygen .

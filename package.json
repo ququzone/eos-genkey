@@ -1,5 +1,5 @@
 {
-  "name": "eos-genkey",
+  "name": "eos-keygen",
   "version": "1.0.0",
   "description": "Generate EOS key",
   "author": "ququzone <xueping.yang@gmail.com>",

@@ -1,6 +1,6 @@
 <template>
   <div class="generate">
-    <h1>Welcome to EOS generate key</h1>
+    <h1>Welcome to EOS key generator</h1>
     <button class="pure-button" v-on:click="generate">Generate</button>
     <h2>Private Key:</h2>
     <div>

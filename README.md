@@ -1,6 +1,6 @@
-# eos-genkey
+# eos-keygen
 
-> Generate EOS key
+> EOS key generator
 
 ## Build Setup
 
@@ -18,4 +18,9 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Run on docker
+
+``` bash
+./build.sh
+docker run --rm -p 8080:80 eos-keygen
+```
